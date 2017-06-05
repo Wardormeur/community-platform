@@ -20,7 +20,9 @@ curl -d '{"role": "cd-dojos", "cmd":"load", "id": 1}' http://localhost:10301/act
 
 The role parameter describe the microservice targeted. The port number is mapped to the same microservice and declared per microservice.
 
-The cmd parameter is the name of the function under which it has been registred
+The cmd parameter is the name of the function under which it has been registred.
+
+You'll often find in the newest microservice that the act follows a new pattern, adding "entity" or "ctrl" parameter. This allows us to differenciate CRUD actions \(private\) from exposed actions.
 
 ## Adding a route
 
