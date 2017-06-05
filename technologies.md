@@ -1,4 +1,8 @@
-In a nutshell
+# Our tech stack
 
-![](blob:https://www.gitbook.com/49292fa4-2488-4a06-9fe6-9fc1d5fd5e92)
+From Front \(top\) to bottom \(database\)
+
+![](blob:https://www.gitbook.com/de740ce2-5bf7-4c2b-8b8a-bee76186ec0f)
+
+\(doesn't include devops :\)\)
 
