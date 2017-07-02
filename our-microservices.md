@@ -1,4 +1,4 @@
-# Our microservices
+# Our microservices/repositories
 
 ![](/assets/Untitled Diagram.png)
 
@@ -23,11 +23,13 @@
     * dojo leads
 
 * Event service
+
   * Anything linked to events
     * event
     * ticket
     * session \(a regroupement of tickets\)
     * application \(a ticket ordered\)
+
 * Badge service
   * Badge system integration
 

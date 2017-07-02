@@ -54,9 +54,7 @@ service.js or index.js
 
 ## Regarding zen-platform
 
-Middleware :
-
 HapiJs
 
-It handles
+/lib : contains 
 
