@@ -5,7 +5,9 @@
 * Zen-platform :
 
   * It contains both our server as well as our angular front-end 
-    * a new front-end, called cp-zen-front-end is to be packaged as a on-going separation and rewrite from cp-zen-platform
+    * a new front-end, called [cp-zen-frontend](https://github.com/CoderDojo/cp-zen-frontend/tree/staging) is to be packaged as a on-going separation and rewrite from cp-zen-platform
+      * hence do not work on cp-zen for its front-end part unless it's a quick bugfix;
+      * instead write new with vueJs our friendly front-end :\)
 
 * User service :
 
@@ -31,6 +33,7 @@
     * application \(a ticket ordered\)
 
 * Badge service
+
   * Badge system integration
 
 
