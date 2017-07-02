@@ -37,7 +37,7 @@ service.js or index.js
 * other env variables \(integrations\)
 * permissions for acts when they are exposed through Hapijs
 
-## On going migration
+## Ongoing migration
 
 /lib: contains all the logic
 
@@ -53,8 +53,6 @@ service.js or index.js
 * this directory doesn't exist anymore as every act has its own tests along with its code, its permissions and its validation
 
 ## Regarding zen-platform
-
-HapiJs
 
 /lib : contains all the api endpoints and their definition
 
@@ -73,7 +71,7 @@ HapiJs
   * routes for directives template
   * ...
 
-/web/config: 
+/web/config:
 
 * statically defined api responses
   * programming languages
@@ -84,5 +82,5 @@ HapiJs
     * i18n
     * dustjs
 
-
+/web/public:  Angular1 front-end
 
