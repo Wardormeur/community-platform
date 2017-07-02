@@ -4,7 +4,7 @@ We use senecajs as a framework \(senecajs.org\) for all our plugins.
 
 The only exception to the following is cp-zen as it's both containing our front-end and serving it, but still does the link through hapijs to the microservices
 
-## Current 
+## Current
 
 service.js or index.js
 
@@ -22,7 +22,7 @@ service.js or index.js
 
 * Each file is the logic for one act
 
-/tests : 
+/tests :
 
 * "unit" test
 * often, &lt;serviceName&gt;-test.specs.js contains all the tests, into one unique file
@@ -41,9 +41,8 @@ service.js or index.js
     * on newer structure of our microservices, permissions and validation are grouped together with the act itself
     * on older ones, permissions are on /config and validation is only covered by HapiJs
 
-/testsnote: according to the new tree, tests are located with their respective act
-
-
+  
+ snote: according to the new tree, tests are located with their respective act
 
 /config : contains the microservice configuration, including
 
