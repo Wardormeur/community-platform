@@ -17,13 +17,20 @@ Required fields : do not use asterisk, instead use "optional" for optional field
 Select fields :
 
 * should have a default non-reselectable value for non-required fields
-* shouldnt' have a default value if it's required \([https://www.nngroup.com/articles/form-design-placeholders/\](https://www.nngroup.com/articles/form-design-placeholders/\)\)
+* shouldnt' have a default value if it's required \([https://www.nngroup.com/articles/form-design-placeholders/\](https://www.nngroup.com/articles/form-design-placeholders/%29\)
 
 ## Wording
 
 Form process of creation :
 
 * ask questions or affirmative ?
+
+Should be Capitalized :
+
+* Dojo
+* CoderDojo
+* Mentor
+* Ninja
 
 
 
