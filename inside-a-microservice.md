@@ -29,9 +29,12 @@ service.js or index.js
 
 /tests/e2e : contains the microservice for loading testdata for this microservice
 
-/config: 
+/config: contains the microservice configuration, including
 
-* contains env variables
+* the port on which the microservice is running, 
+* the postgres params,
+* the mailing params
+* other env variables \(integrations\)
 * permissions for acts when they are exposed through Hapijs
 
 ## On going migration
@@ -43,21 +46,17 @@ service.js or index.js
     * allows us to swap database  easily
 * controllers:  external acts available to any other microservice /zen
   * as they can be exposed through cp-zen/hapijs, they should be validated and have permissions set
-    * permissions and validation are grouped on the same folder than their act
+    * permissions, validation and tests are grouped on the same folder than their act
 
 /test:
 
 * this directory doesn't exist anymore as every act has its own tests along with its code, its permissions and its validation
 
-/config : contains the microservice configuration, including
-
-* the port on which the microservice is running, 
-* the postgres params,
-* the mailing params
-
 ## Regarding zen-platform
 
-Server-side :
+Middleware :
+
+HapiJs
 
 It handles
 
