@@ -7,4 +7,5 @@
 * [Common actions](cp-zen-platform-your-entry-point.md)
 * [A request lifecycle](a-request-liefcycle.md)
 * [Conventions](conventions.md)
+* [CI setup](ci-setup.md)
 
