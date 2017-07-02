@@ -37,7 +37,7 @@ service.js or index.js
 * other env variables \(integrations\)
 * permissions for acts when they are exposed through Hapijs
 
-## Ongoing migration
+## Ongoing migrations
 
 /lib: contains all the logic
 
@@ -56,8 +56,8 @@ service.js or index.js
 
 /lib : contains all the api endpoints and their definition
 
-* ongoing: separation of validation from the endpoint to allow reuse of definition
-* ongoing: missing validations of api calls
+* **ongoing**: separation of validation from the endpoint to allow reuse of definition
+* **ongoing**: missing validations of api calls
 
 /web/index: entrypoint
 
@@ -83,4 +83,8 @@ service.js or index.js
     * dustjs
 
 /web/public:  Angular1 front-end
+
+* **ongoing migration** : unless it's a bugfix, please use [cp-zen-front-end](https://github.com/CoderDojo/cp-zen-frontend/tree/staging) instead
+
+
 
