@@ -30,7 +30,7 @@ In cp-zen, find a /lib/{entityName}.js file. It should contain all the API route
 
 ## Adding an url
 
-In Angular1, open /webjs/init-master.js and add your configuration here.
+In Angular1, open /web/js/init-master.js and add your configuration here.
 
 ## 
 
