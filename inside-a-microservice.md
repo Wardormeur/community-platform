@@ -4,7 +4,7 @@ We use senecajs as a framework \(senecajs.org\) for all our plugins.
 
 The only exception to the following is cp-zen as it's both containing our front-end and serving it, but still does the link through hapijs to the microservices
 
-service.js/index.js
+service.js or index.js
 
 * loader for local seneca instance
   * set up external plugins
@@ -20,6 +20,7 @@ service.js/index.js
 
 * entities : CRUD actions only available to the local controllers
   * should not contain any logic
+    * allows us to swap connectors easily
 * controllers:  external acts available to any other microservice /zen
   * as they can be exposed through cp-zen/hapijs, they should be validated and have permissions set
     * on newer structure of our microservices, permissions and validation are grouped together with the act itself
@@ -35,11 +36,9 @@ service.js/index.js
 * the postgres params,
 * the mailing params
 
-
-
 ## Regarding zen-platform
 
-Server-side : 
+Server-side :
 
-It handles 
+It handles
 

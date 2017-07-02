@@ -1,4 +1,4 @@
-# ![](blob:https://www.gitbook.com/2c5185b1-e809-4d91-b722-ffc98fc0410b)
+# ![](/assets/zen.png)
 
 # Zen, the CoderDojo Community Platform
 
