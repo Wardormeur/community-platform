@@ -56,5 +56,33 @@ service.js or index.js
 
 HapiJs
 
-/lib : contains 
+/lib : contains all the api endpoints and their definition
+
+* ongoing: separation of validation from the endpoint to allow reuse of definition
+* ongoing: missing validations of api calls
+
+/web/index: entrypoint
+
+* loader of plugins, config, api endpoints.
+
+/web/controllers:  serves the index
+
+* define exceptions to our SPA
+  * embedded
+  * open-graph
+  * routes for directives template
+  * ...
+
+/web/config: 
+
+* statically defined api responses
+  * programming languages
+  * languages
+* config for
+  * caching
+  * plugins
+    * i18n
+    * dustjs
+
+
 
